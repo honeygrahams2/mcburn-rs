@@ -163,8 +163,6 @@ impl Processor {
             },
             &account_infos[..],
         )?;
-
-        msg!("Success!");
         
         Ok(())
     }
