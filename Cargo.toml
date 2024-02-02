@@ -1,0 +1,16 @@
+[package]
+name = "mcburn"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+borsh = "0.9.3"
+mpl-bubblegum = "1.2.0"
+solana-program = "1.18.1"
+spl-account-compression = {version = "0.3.0", features = ["no-entrypoint"]}
+thiserror = "1.0.39"
+
+[lib]
+crate-type = ["cdylib", "lib"]
