@@ -1,3 +1,19 @@
+**mcburn**
+
+solana cnft burner program
+
+**solana program id** (mainnet)
+
+GwR3T5wAAWRCCNyjCs2g9aUM7qAtwNBsn2Z515oGTi7i
+
+**mcburn-js**
+
+javascript example
+
+https://github.com/McDegens-DAO/mcburn-js
+
+**known issues**
+
 We are intermittently experiencing this error:
 
 > Program log: Burning cNFT
