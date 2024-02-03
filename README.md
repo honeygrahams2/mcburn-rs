@@ -24,4 +24,4 @@ We are intermittently experiencing this error:
 > Program GwR3T5wAAWRCCNyjCs2g9aUM7qAtwNBsn2Z515oGTi7i  consumed 115564 of 199850 compute units
 
 
-We believe it has to do with the low buffer size of 64 set in the tree.  We're open to suggestions on combating this problem.  We were able to burn this cnft in a successive call to the program.
+We believe it has to do with the low buffer size of 64 set in the tree.  We're open to suggestions on combating this problem.  We were able to burn this cnft in a subsequent call to the program.
