@@ -1,4 +1,4 @@
-*mcburn*
+**mcburn**
 
 solana cnft burner program
 
@@ -12,7 +12,7 @@ javascript example
 
 https://github.com/McDegens-DAO/mcburn-js
 
-**known issues**
+**known issues:**
 
 We are intermittently experiencing this error:
 
