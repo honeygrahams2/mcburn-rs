@@ -1,4 +1,4 @@
-**mcburn**
+# mcburn
 
 solana cnft burner program
 
