@@ -1,0 +1,109 @@
+{
+  "version": "0.1.0",
+  "name": "mcburn",
+  "instructions": [],
+  "types": [
+    {
+      "name": "BurnCNFTData",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "assetId",
+            "type": "publicKey"
+          },
+          {
+            "name": "root",
+            "type": "publicKey"
+          },
+          {
+            "name": "dataHash",
+            "type": "publicKey"
+          },
+          {
+            "name": "creatorHash",
+            "type": "publicKey"
+          },
+          {
+            "name": "nonce",
+            "type": "u64"
+          },
+          {
+            "name": "proofLength",
+            "type": "u8"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CNFTBurnerInstruction",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "BurnCNFT",
+            "fields": [
+              {
+                "name": "burn_cnft_data",
+                "type": {
+                  "defined": "BurnCNFTData"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": 0,
+      "name": "InvalidInstruction",
+      "msg": "CERROR: Invalid Instruction"
+    },
+    {
+      "code": 1,
+      "name": "InvalidInstructionData",
+      "msg": "CERROR: Invalid Instruction Data"
+    },
+    {
+      "code": 2,
+      "name": "InvalidTreeAuthority",
+      "msg": "CERROR: Invalid Tree Authority"
+    },
+    {
+      "code": 3,
+      "name": "InvalidAssetID",
+      "msg": "CERROR: Invalid Asset ID"
+    },
+    {
+      "code": 4,
+      "name": "InvalidSPLTokenID",
+      "msg": "CERROR: Invalid SPL Token Program ID"
+    },
+    {
+      "code": 5,
+      "name": "InvalidSPLAccountCompressionProgramID",
+      "msg": "CERROR: Invalid SPL Account Compression Program ID"
+    },
+    {
+      "code": 6,
+      "name": "InvalidSPLNoopProgramID",
+      "msg": "CERROR: Invalid SPL Noop Program ID"
+    },
+    {
+      "code": 7,
+      "name": "InvalidSystemProgramID",
+      "msg": "CERROR: Invalid System Program ID"
+    },
+    {
+      "code": 8,
+      "name": "InvalidBubblegumProgramID",
+      "msg": "CERROR: Invalid MPL Bubblegum Program ID"
+    }
+  ],
+  "metadata": {
+    "origin": "shank",
+    "address": "BtFLxrtCs4BR43jpHvZ9o4t3xk9zkKXx4JTuDhFTeD8W"
+  }
+}
