@@ -15,7 +15,7 @@ fn main() {
         .arg("-o")
         .arg(idl_dir)
         .arg("-p")
-        .arg("BtFLxrtCs4BR43jpHvZ9o4t3xk9zkKXx4JTuDhFTeD8W")
+        .arg("GwR3T5wAAWRCCNyjCs2g9aUM7qAtwNBsn2Z515oGTi7i")
         .output()
         .expect("Failed to run shank");
 
