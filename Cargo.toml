@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 borsh = "0.9.3"
+include-idl = { path = "../include-idl" }
 mpl-bubblegum = "1.2.0"
 shank = "0.4.2"
 solana-program = "1.18.1"
