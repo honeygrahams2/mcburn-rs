@@ -17,10 +17,10 @@ include_idl!();
 security_txt! {
     // Required fields
     name: "McBurn",
-    project_url: "https://https://github.com/honeygrahams2/mcburn-rs",
+    project_url: "https://github.com/honeygrahams2/mcburn-rs",
     contacts: "email:nathan@airadlabs.com",
     policy: "https://github.com/honeygrahams2/mcburn-rs/SECURITY.md",
 
     // Optional Fields
-    source_code: "https://https://github.com/honeygrahams2/mcburn-rs"
+    source_code: "https://github.com/honeygrahams2/mcburn-rs"
 }
