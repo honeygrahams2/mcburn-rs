@@ -11,6 +11,7 @@ use solana_program::{
     program::invoke, 
 };
 use std::str::FromStr;
+use utils::assert_true;
 
 use crate::{
     error::CNFTBurnerError, 
@@ -19,15 +20,6 @@ use crate::{
 };
 
 const BURN_DICRIMINATOR: &'static [u8;8] = &[116, 110, 29, 56, 107, 219, 42, 93];
-
-pub fn assert_true(cond: bool, err: ProgramError, msg: &str) -> ProgramResult {
-    if !cond {
-        msg!(msg);
-        Err(err)
-    } else {
-        Ok(())
-    }
-}
 
 pub struct Processor {}
 impl Processor {
