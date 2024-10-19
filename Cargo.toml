@@ -6,13 +6,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-borsh = "0.9.3"
+borsh = "1.5.1"
 include-idl = { path = "../include-idl" }
-mpl-bubblegum = "1.2.0"
+mpl-bubblegum = "1.4.0"
 shank = "0.4.2"
-solana-program = "1.18.1"
+solana-program = "1.18.25"
 solana-security-txt = "1.1.1"
-spl-account-compression = {version = "0.3.0", features = ["no-entrypoint"]}
+spl-account-compression = {version = "0.4.2", features = ["no-entrypoint"]}
 thiserror = "1.0.39"
 utils = { path = "../utils" }
 
